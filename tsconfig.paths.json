@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/utils/*": ["src/utils/*"],
+			"@/utils": ["src/utils/index.ts"],
+			"@/modules/*": ["src/modules/*"],
+			"@/src/*": ["src/*"],
+			"@/config": ["src/config/index.ts"],
+			"@/types/*": ["src/types/*"],
+			"package": ["package.json"]
+		}
+	}
+}

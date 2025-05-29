@@ -1,0 +1,107 @@
+[
+  {
+    "_id": {
+      "$oid": "6549db1c8547d65b774fd21c"
+    },
+    "roles": [
+      {
+        "$oid": "653bbd306cc111e59dceb696"
+      }
+    ],
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "email": "admin@gmail.com",
+    "password": "$2a$10$1Wp1Ha8tSXDChOlK3T.HX.2GUBwa7fgrT5Pe01wUSAwBd6oXOIslO",
+    "address1": "jaffna",
+    "facebookId": "kumar",
+    "googleId": "kumar",
+    "phoneNumber": "0771234567",
+    "city": "jaffna",
+    "isDeleted": false,
+    "profileImage": "no",
+    "businessName": "no",
+    "isPremiumCustomer": false,
+    "isVerified": false,
+    "isAvailability": false,
+    "isAdvertisementsEnabled": false,
+    "isActive": false,
+    "approvalStatus": false,
+    "createdAt": {
+      "$date": "2023-11-07T06:37:16.197Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-07T06:37:16.197Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6549db388547d65b774fd21f"
+    },
+    "roles": [
+      {
+        "$oid": "653bbd1e6cc111e59dceb693"
+      }
+    ],
+    "firstName": "Arun",
+    "lastName": "Kumar",
+    "email": "user@gmail.com",
+    "password": "$2a$10$wtBZ//Foq2HeoX9KNVeSyeSbTleRtWjnKk2hpBDsfy0CeI0oGTbka",
+    "address1": "jaffna",
+    "facebookId": "kumar",
+    "googleId": "kumar",
+    "phoneNumber": "0771234567",
+    "city": "jaffna",
+    "isDeleted": false,
+    "profileImage": "no",
+    "businessName": "no",
+    "isPremiumCustomer": false,
+    "isVerified": false,
+    "isAvailability": false,
+    "isAdvertisementsEnabled": false,
+    "isActive": false,
+    "approvalStatus": false,
+    "createdAt": {
+      "$date": "2023-11-07T06:37:44.349Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-07T06:37:44.349Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6549db618547d65b774fd222"
+    },
+    "roles": [
+      {
+        "$oid": "653bbd636cc111e59dceb69b"
+      }
+    ],
+    "firstName": "Dilu",
+    "lastName": "Kumar",
+    "email": "staff@gmail.com",
+    "password": "$2a$10$8oc2I8K18ILCOnHf6dNLjO4xm3RuEpR3naCfj.wSGdW7r90C9TWSK",
+    "address1": "jaffna",
+    "facebookId": "kumar",
+    "googleId": "kumar",
+    "phoneNumber": "0771234567",
+    "city": "jaffna",
+    "isDeleted": false,
+    "profileImage": "no",
+    "businessName": "no",
+    "isPremiumCustomer": false,
+    "isVerified": false,
+    "isAvailability": false,
+    "isAdvertisementsEnabled": false,
+    "isActive": false,
+    "approvalStatus": false,
+    "createdAt": {
+      "$date": "2023-11-07T06:38:25.131Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-07T06:38:25.131Z"
+    },
+    "__v": 0
+  }
+]

@@ -8,6 +8,8 @@
 			"@/src/*": ["src/*"],
 			"@/config": ["src/config/index.ts"],
 			"@/types/*": ["src/types/*"],
+			"@/middlewares/*": ["src/middlewares/*"],
+			"@/middlewares": ["src/middlewares/index.ts"],
 			"package": ["package.json"]
 		}
 	}

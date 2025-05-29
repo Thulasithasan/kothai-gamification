@@ -123,8 +123,6 @@ export const uploadUrlByKey = async (
 
 export const fileExists = async (key: string): Promise<boolean> => {
   try {
-    console.log(bucketName, key);
-
     const dta = await s3
       .headObject({
         Bucket: bucketName,

@@ -241,7 +241,6 @@ const forgotPassword = async (
 const resetPassword = async (
   changePasswordRequest: ChangePasswordRequest
 ): Promise<BaseResponse> => {
-  console.log(changePasswordRequest.email);
   const user = await UserRepository.findByEmail(
     changePasswordRequest.email
   );
@@ -345,7 +344,6 @@ const refreshToken = async (refreshToken: string) => {
 // Add new function to logout (invalidate refresh token)
 const logout = async (  userData: UserJWT
   , refreshToken: string) => {
-    console.log(userData.id);
   await UserRepository.removeRefreshToken(userData.id, refreshToken);
   return { status: true };
 };

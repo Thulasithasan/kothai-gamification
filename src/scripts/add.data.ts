@@ -15,7 +15,6 @@ function fixData(objs: any[]) {
         )
         //Boolean(obj[key].hasOwnProperty("$oid"))
       ) {
-        //console.log(`found id ${key}`)
         obj[key] = new mongoose.Types.ObjectId(obj[key]['$oid']);
         // eslint-disable-next-line no-prototype-builtins
       }
@@ -24,7 +23,6 @@ function fixData(objs: any[]) {
         obj[key].constructor === String &&
         key == '$oid'
       ) {
-        //console.log(`found id ${key}`)
         obj = new mongoose.Types.ObjectId(obj[key].toString());
         // eslint-disable-next-line no-prototype-builtins
       } else if (
